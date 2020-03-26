@@ -7,7 +7,7 @@ import { reducer as formReducer } from 'redux-form';
  
 import './index.css'; 
 import App from './App'; 
-import registerServiceWorker from './registerServiceWorker'; 
+import registerServiceWorker from './registerServiceWorker.js'; 
  
 const rootReducer = combineReducers({   
   form: formReducer, 
